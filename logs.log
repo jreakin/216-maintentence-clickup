@@ -1,0 +1,888 @@
+Loading .env file...
+19:17:37,333 __main__ INFO Loading .env file...
+Loaded .env file.
+19:17:37,333 __main__ INFO Loaded .env file.
+Loading api key file...
+19:17:37,333 __main__ INFO Loading api key file...
+Loaded api key file.
+19:17:37,334 __main__ INFO Loaded api key file.
+Loading params.toml file...
+19:17:37,334 __main__ INFO Loading params.toml file...
+Loaded params.toml file.
+19:17:37,334 __main__ INFO Loaded params.toml file.
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:17:37,334 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:17:37,389 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:17:37,983 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/team/ with status code 200
+19:17:37,986 __main__ INFO Got response from https://api.clickup.com/api/v2/team/ with status code 200
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:17:37,987 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:17:37,991 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:17:38,445 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/team/20147054/space with status code 200
+19:17:38,449 __main__ INFO Got response from https://api.clickup.com/api/v2/team/20147054/space with status code 200
+Getting folder ids...
+19:17:38,450 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:17:38,450 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:17:38,453 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:17:38,982 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/space/63124096/folder with status code 200
+19:17:38,987 __main__ INFO Got response from https://api.clickup.com/api/v2/space/63124096/folder with status code 200
+Got folder ids.
+19:17:38,988 __main__ INFO Got folder ids.
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:17:38,988 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:17:38,993 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:17:39,439 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/user with status code 200
+19:17:39,444 __main__ INFO Got response from https://api.clickup.com/api/v2/user with status code 200
+Loading .env file...
+19:18:07,100 __main__ INFO Loading .env file...
+Loaded .env file.
+19:18:07,100 __main__ INFO Loaded .env file.
+Loading api key file...
+19:18:07,100 __main__ INFO Loading api key file...
+Loaded api key file.
+19:18:07,100 __main__ INFO Loaded api key file.
+Loading params.toml file...
+19:18:07,100 __main__ INFO Loading params.toml file...
+Loaded params.toml file.
+19:18:07,101 __main__ INFO Loaded params.toml file.
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:07,101 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:07,182 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:07,751 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/team/ with status code 200
+19:18:07,754 __main__ INFO Got response from https://api.clickup.com/api/v2/team/ with status code 200
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:07,754 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:07,760 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:08,300 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/team/20147054/space with status code 200
+19:18:08,302 __main__ INFO Got response from https://api.clickup.com/api/v2/team/20147054/space with status code 200
+Getting folder ids...
+19:18:08,302 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:08,302 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:08,308 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:08,942 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/space/63124096/folder with status code 200
+19:18:08,944 __main__ INFO Got response from https://api.clickup.com/api/v2/space/63124096/folder with status code 200
+Got folder ids.
+19:18:08,945 __main__ INFO Got folder ids.
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:08,945 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:08,950 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:09,422 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/user with status code 200
+19:18:09,427 __main__ INFO Got response from https://api.clickup.com/api/v2/user with status code 200
+Checked for updated tasks at 2023-01-29 19:18:09.427688
+19:18:09,427 __main__ INFO Checked for updated tasks at 2023-01-29 19:18:09.427688
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:09,427 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:09,433 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:10,66 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/list/900800104214/task with status code 200
+19:18:10,71 __main__ INFO Got response from https://api.clickup.com/api/v2/list/900800104214/task with status code 200
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:18:10,72 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:18:10,72 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:18:42,663 __main__ INFO Loading .env file...
+Loaded .env file.
+19:18:42,664 __main__ INFO Loaded .env file.
+Loading api key file...
+19:18:42,664 __main__ INFO Loading api key file...
+Loaded api key file.
+19:18:42,664 __main__ INFO Loaded api key file.
+Loading params.toml file...
+19:18:42,664 __main__ INFO Loading params.toml file...
+Loaded params.toml file.
+19:18:42,664 __main__ INFO Loaded params.toml file.
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:42,665 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:42,674 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:43,184 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/team/ with status code 200
+19:18:43,188 __main__ INFO Got response from https://api.clickup.com/api/v2/team/ with status code 200
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:43,188 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:43,193 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:43,641 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/team/20147054/space with status code 200
+19:18:43,645 __main__ INFO Got response from https://api.clickup.com/api/v2/team/20147054/space with status code 200
+Getting folder ids...
+19:18:43,646 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:43,646 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:18:43,650 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:44,305 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/space/63124096/folder with status code 200
+19:18:44,315 __main__ INFO Got response from https://api.clickup.com/api/v2/space/63124096/folder with status code 200
+Got folder ids.
+19:18:44,315 __main__ INFO Got folder ids.
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:44,316 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:44,320 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:44,778 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/user with status code 200
+19:18:44,781 __main__ INFO Got response from https://api.clickup.com/api/v2/user with status code 200
+Checked for updated tasks at 2023-01-29 19:18:44.781662
+19:18:44,781 __main__ INFO Checked for updated tasks at 2023-01-29 19:18:44.781662
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:44,781 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:18:44,787 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:18:45,387 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Got response from https://api.clickup.com/api/v2/list/900800104214/task with status code 200
+19:18:45,393 __main__ INFO Got response from https://api.clickup.com/api/v2/list/900800104214/task with status code 200
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:18:45,394 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:18:45,394 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:21:41,605 __main__ INFO Loading .env file...
+Loading api key file...
+19:21:41,605 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:21:41,605 __main__ INFO Loading params.toml file...
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:21:41,606 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:21:41,667 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:21:42,107 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:21:42,112 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:21:42,117 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:21:42,586 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:21:42,590 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:21:42,590 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:21:42,598 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:21:43,145 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:21:43,153 __main__ INFO Got folder ids.
+Getting active user...
+19:21:43,153 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:21:43,154 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:21:43,159 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:21:43,585 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Loading .env file...
+19:26:47,283 __main__ INFO Loading .env file...
+Loading api key file...
+19:26:47,284 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:26:47,284 __main__ INFO Loading params.toml file...
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:47,285 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:47,318 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:47,873 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:47,879 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:47,883 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:48,364 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:26:48,367 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:48,367 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:48,372 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:48,912 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:26:48,917 __main__ INFO Got folder ids.
+Getting active user...
+19:26:48,918 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:48,918 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:48,922 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:49,390 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 19:26:49.395270
+19:26:49,395 __main__ INFO Checked for updated tasks at 2023-01-29 19:26:49.395270
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:49,395 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:49,400 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:49,931 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:49,936 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:49,941 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:50,408 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:26:50,413 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:50,413 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:26:50,418 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:51,31 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:26:51,36 __main__ INFO Got folder ids.
+Getting active user...
+19:26:51,36 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:51,36 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:51,41 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:51,494 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:51,500 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:26:51,505 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:26:52,152 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:26:52,157 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:26:52,158 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:27:01,219 __main__ INFO Loading .env file...
+Loading api key file...
+19:27:01,219 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:27:01,219 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:27:01.220759
+19:27:01,220 __main__ INFO Checked for updated tasks at 2023-01-29 19:27:01.220759
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:27:01,220 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:27:01,225 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:27:01,754 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:27:01,757 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:27:01,762 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:27:02,193 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:27:02,196 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:27:02,196 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:27:02,200 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:27:02,795 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:27:02,798 __main__ INFO Got folder ids.
+Getting active user...
+19:27:02,798 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:27:02,798 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:27:02,805 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:27:03,313 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:27:03,316 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:27:03,321 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:27:03,951 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:27:03,954 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:27:03,954 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:32:53,748 __main__ INFO Loading .env file...
+Loading api key file...
+19:32:53,749 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:32:53,749 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:32:53.750179
+19:32:53,750 __main__ INFO Checked for updated tasks at 2023-01-29 19:32:53.750179
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:32:53,750 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:32:53,802 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:32:54,367 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:32:54,375 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:32:54,379 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:32:54,855 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:32:54,857 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:32:54,857 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:32:54,862 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:32:55,366 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:32:55,368 __main__ INFO Got folder ids.
+Getting active user...
+19:32:55,368 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:32:55,368 __main__ INFO Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:32:55,372 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:32:55,796 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:32:55,799 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:32:55,805 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:32:56,516 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:32:56,519 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:32:56,519 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Checked for updated tasks at 2023-01-29 19:32:56.519287
+19:32:56,519 __main__ INFO Checked for updated tasks at 2023-01-29 19:32:56.519287
+Loading .env file...
+19:34:13,191 __main__ INFO
+Loading api key file...
+19:34:13,192 __main__ INFO
+Loading params.toml file...
+19:34:13,192 __main__ INFO
+Checked for updated tasks at 2023-01-29 19:34:13.193831
+19:34:13,193 __main__ INFO
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:34:13,193 __main__ INFO
+19:34:13,226 urllib3.connectionpool DEBUG
+19:34:13,725 urllib3.connectionpool DEBUG
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:34:13,727 __main__ INFO
+19:34:13,731 urllib3.connectionpool DEBUG
+19:34:14,208 urllib3.connectionpool DEBUG
+Getting folder ids...
+19:34:14,210 __main__ INFO
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+19:34:14,210 __main__ INFO
+19:34:14,214 urllib3.connectionpool DEBUG
+19:34:14,758 urllib3.connectionpool DEBUG
+Got folder ids.
+19:34:14,759 __main__ INFO
+Getting active user...
+19:34:14,759 __main__ INFO
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:34:14,759 __main__ INFO
+19:34:14,761 urllib3.connectionpool DEBUG
+19:34:15,289 urllib3.connectionpool DEBUG
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+19:34:15,290 __main__ INFO
+19:34:15,291 urllib3.connectionpool DEBUG
+19:34:15,918 urllib3.connectionpool DEBUG
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:34:15,924 __main__ INFO
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:34:15,924 __main__ INFO
+Checked for updated tasks at 2023-01-29 19:34:15.924454
+19:34:15,924 __main__ INFO
+Loading .env file...
+INFO:__main__:Loading .env file...
+Loading api key file...
+INFO:__main__:Loading api key file...
+Loading params.toml file...
+INFO:__main__:Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:34:56.077169
+INFO:__main__:Checked for updated tasks at 2023-01-29 19:34:56.077169
+Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+INFO:__main__:Sending request to https://api.clickup.com/api/v2/team/ with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.clickup.com:443
+DEBUG:urllib3.connectionpool:https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+INFO:__main__:Sending request to https://api.clickup.com/api/v2/team/20147054/space with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.clickup.com:443
+DEBUG:urllib3.connectionpool:https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+INFO:__main__:Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+INFO:__main__:Sending request to https://api.clickup.com/api/v2/space/63124096/folder with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params {'archived': 'false'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.clickup.com:443
+DEBUG:urllib3.connectionpool:https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+INFO:__main__:Got folder ids.
+Getting active user...
+INFO:__main__:Getting active user...
+Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+INFO:__main__:Sending request to https://api.clickup.com/api/v2/user with headers {'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.clickup.com:443
+DEBUG:urllib3.connectionpool:https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+INFO:__main__:Sending request to https://api.clickup.com/api/v2/list/900800104214/task with headers {'Content-Type': 'application/json', 'Authorization': 'pk_3910400_2424PFGKXOCCI7YO4YED2V0R9Z7NP9WT'} and params None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.clickup.com:443
+DEBUG:urllib3.connectionpool:https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+INFO:__main__:Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+INFO:__main__:Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Checked for updated tasks at 2023-01-29 19:34:58.920380
+INFO:__main__:Checked for updated tasks at 2023-01-29 19:34:58.920380
+Loading .env file...
+19:35:56,588 __main__ INFO Loading .env file...
+Loading api key file...
+19:35:56,589 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:35:56,589 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:35:56.590466
+19:35:56,590 __main__ INFO Checked for updated tasks at 2023-01-29 19:35:56.590466
+Sending request to https://api.clickup.com/api/v2/team/
+19:35:56,590 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+19:35:56,638 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:35:57,161 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:35:57,163 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:35:57,166 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:35:57,612 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:35:57,613 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:35:57,613 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:35:57,615 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:35:58,659 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:35:58,660 __main__ INFO Got folder ids.
+Getting active user...
+19:35:58,660 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+19:35:58,660 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+19:35:58,662 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:00,92 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:36:00,94 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:36:00,98 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:00,720 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:36:00,725 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:36:00,725 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Checked for updated tasks at 2023-01-29 19:36:00.725441
+19:36:00,725 __main__ INFO Checked for updated tasks at 2023-01-29 19:36:00.725441
+Loading .env file...
+19:36:56,276 __main__ INFO Loading .env file...
+Loading api key file...
+19:36:56,276 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:36:56,276 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:36:56.278090
+19:36:56,278 __main__ INFO Checked for updated tasks at 2023-01-29 19:36:56.278090
+Sending request to https://api.clickup.com/api/v2/team/
+19:36:56,278 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+19:36:56,320 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:56,921 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:36:56,926 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:36:56,931 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:57,410 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:36:57,416 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:36:57,416 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:36:57,418 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:58,4 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:36:58,5 __main__ INFO Got folder ids.
+Getting active user...
+19:36:58,6 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+19:36:58,6 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+19:36:58,8 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:58,479 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:36:58,480 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:36:58,482 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:36:59,120 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 19:36:59.121412
+19:36:59,121 __main__ INFO Checked for updated tasks at 2023-01-29 19:36:59.121412
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:36:59,121 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:36:59,121 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Checked for updated tasks at 2023-01-29 19:36:59.121573
+19:36:59,121 __main__ INFO Checked for updated tasks at 2023-01-29 19:36:59.121573
+Loading .env file...
+19:37:54,66 __main__ INFO Loading .env file...
+Loading api key file...
+19:37:54,67 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:37:54,67 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:37:54.068122
+19:37:54,68 __main__ INFO Checked for updated tasks at 2023-01-29 19:37:54.068122
+Sending request to https://api.clickup.com/api/v2/team/
+19:37:54,68 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+19:37:54,104 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:37:54,601 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:37:54,615 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:37:54,618 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:37:55,81 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:37:55,83 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:37:55,83 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:37:55,86 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:37:55,641 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:37:55,642 __main__ INFO Got folder ids.
+Getting active user...
+19:37:55,642 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+19:37:55,642 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+19:37:55,645 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:37:56,85 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:37:56,86 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:37:56,88 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:37:56,773 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 19:37:56.776632
+19:37:56,776 __main__ INFO Checked for updated tasks at 2023-01-29 19:37:56.776632
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:37:56,776 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:37:56,776 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:39:34,150 __main__ INFO Loading .env file...
+Loading api key file...
+19:39:34,151 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:39:34,151 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:39:34.152634
+19:39:34,152 __main__ INFO Checked for updated tasks at 2023-01-29 19:39:34.152634
+Sending request to https://api.clickup.com/api/v2/team/
+19:39:34,152 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+19:39:34,204 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:39:34,689 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:39:34,692 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:39:34,697 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:39:35,164 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:39:35,167 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:39:35,167 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:39:35,172 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:39:35,725 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:39:35,730 __main__ INFO Got folder ids.
+Getting active user...
+19:39:35,731 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+19:39:35,731 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+19:39:35,736 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:39:36,204 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:39:36,207 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:39:36,212 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:39:36,846 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 19:39:36.851565
+19:39:36,851 __main__ INFO Checked for updated tasks at 2023-01-29 19:39:36.851565
+Editing task...Name: (' Updated Task Name', '863fyy9a0')
+19:39:36,851 __main__ INFO Editing task...Name: (' Updated Task Name', '863fyy9a0')
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:39:36,851 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:41:40,727 __main__ INFO Loading .env file...
+Loading api key file...
+19:41:40,728 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:41:40,728 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:41:40.729241
+19:41:40,729 __main__ INFO Checked for updated tasks at 2023-01-29 19:41:40.729241
+Sending request to https://api.clickup.com/api/v2/team/
+19:41:40,729 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+19:41:40,767 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:41,437 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:41:41,439 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:41:41,441 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:41,935 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:41:41,936 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:41:41,936 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:41:41,939 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:42,486 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:41:42,489 __main__ INFO Got folder ids.
+Getting active user...
+19:41:42,490 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+19:41:42,490 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+19:41:42,495 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:42,973 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:41:42,974 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:41:42,977 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:43,690 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 19:41:43.696014
+19:41:43,696 __main__ INFO Checked for updated tasks at 2023-01-29 19:41:43.696014
+Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+19:41:43,696 __main__ INFO Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+19:41:43,696 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+19:41:43,696 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:41:43,696 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+19:41:47,148 __main__ INFO Loading .env file...
+Loading api key file...
+19:41:47,148 __main__ INFO Loading api key file...
+Loading params.toml file...
+19:41:47,148 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 19:41:47.149824
+19:41:47,149 __main__ INFO Checked for updated tasks at 2023-01-29 19:41:47.149824
+Sending request to https://api.clickup.com/api/v2/team/
+19:41:47,149 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+19:41:47,154 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:47,700 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:41:47,705 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+19:41:47,710 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:48,168 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+19:41:48,213 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:41:48,214 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+19:41:48,219 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:48,806 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+19:41:48,807 __main__ INFO Got folder ids.
+Getting active user...
+19:41:48,807 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+19:41:48,807 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+19:41:48,809 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:49,335 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:41:49,339 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+19:41:49,343 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+19:41:50,6 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 19:41:50.008718
+19:41:50,8 __main__ INFO Checked for updated tasks at 2023-01-29 19:41:50.008718
+Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+19:41:50,8 __main__ INFO Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+19:41:50,8 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+19:41:50,8 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:41:50,9 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Checked for updated tasks at 2023-01-29 19:46:50.005839
+19:46:50,6 __main__ INFO Checked for updated tasks at 2023-01-29 19:46:50.005839
+Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+19:46:50,6 __main__ INFO Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+19:46:50,6 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+19:46:50,7 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:46:50,7 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Checked for updated tasks at 2023-01-29 19:51:50.016049
+19:51:50,16 __main__ INFO Checked for updated tasks at 2023-01-29 19:51:50.016049
+Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+19:51:50,16 __main__ INFO Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+19:51:50,17 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+19:51:50,17 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+19:51:50,17 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+20:00:27,538 __main__ INFO Loading .env file...
+Loading api key file...
+20:00:27,539 __main__ INFO Loading api key file...
+Loading params.toml file...
+20:00:27,539 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 20:00:27.540127
+20:00:27,540 __main__ INFO Checked for updated tasks at 2023-01-29 20:00:27.540127
+Sending request to https://api.clickup.com/api/v2/team/
+20:00:27,540 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+20:00:27,655 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:00:28,175 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:00:28,178 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:00:28,183 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:00:28,632 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+20:00:28,634 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:00:28,634 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:00:28,638 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:00:29,216 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+20:00:29,220 __main__ INFO Got folder ids.
+Getting active user...
+20:00:29,221 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+20:00:29,221 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+20:00:29,226 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:00:29,657 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:00:29,661 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:00:29,665 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:00:30,334 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 20:00:30.338429
+20:00:30,338 __main__ INFO Checked for updated tasks at 2023-01-29 20:00:30.338429
+Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+20:00:30,338 __main__ INFO Reaching task...Name: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+20:00:30,338 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+20:00:30,338 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+20:00:30,338 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+20:02:08,990 __main__ INFO Loading .env file...
+Loading api key file...
+20:02:08,991 __main__ INFO Loading api key file...
+Loading params.toml file...
+20:02:08,991 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 20:02:08.992594
+20:02:08,992 __main__ INFO Checked for updated tasks at 2023-01-29 20:02:08.992594
+Sending request to https://api.clickup.com/api/v2/team/
+20:02:08,992 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+20:02:09,31 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:09,617 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:02:09,620 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:02:09,627 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:10,105 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+20:02:10,107 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:02:10,107 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:02:10,111 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:10,634 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+20:02:10,640 __main__ INFO Got folder ids.
+Getting active user...
+20:02:10,641 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+20:02:10,641 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+20:02:10,645 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:11,96 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:02:11,99 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:02:11,103 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:11,735 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 20:02:11.744411
+20:02:11,744 __main__ INFO Checked for updated tasks at 2023-01-29 20:02:11.744411
+Reading task: (' Updated Task Name', '863fyy9a0')
+20:02:11,744 __main__ INFO Reading task: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+20:02:11,744 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+20:02:11,744 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+20:02:11,745 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+20:02:54,613 __main__ INFO Loading .env file...
+Loading api key file...
+20:02:54,613 __main__ INFO Loading api key file...
+Loading params.toml file...
+20:02:54,613 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 20:02:54.614593
+20:02:54,614 __main__ INFO Checked for updated tasks at 2023-01-29 20:02:54.614593
+Sending request to https://api.clickup.com/api/v2/team/
+20:02:54,614 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+20:02:54,619 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:55,97 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:02:55,100 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:02:55,103 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:55,566 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+20:02:55,567 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:02:55,567 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:02:55,569 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:56,97 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+20:02:56,99 __main__ INFO Got folder ids.
+Getting active user...
+20:02:56,99 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+20:02:56,100 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+20:02:56,102 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:56,575 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:02:56,577 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:02:56,584 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:02:57,216 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 20:02:57.218806
+20:02:57,218 __main__ INFO Checked for updated tasks at 2023-01-29 20:02:57.218806
+Reading task: (' Updated Task Name', '863fyy9a0')
+20:02:57,219 __main__ INFO Reading task: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+20:02:57,219 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+20:02:57,219 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+20:02:57,219 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Loading .env file...
+20:04:20,946 __main__ INFO Loading .env file...
+Loading api key file...
+20:04:20,947 __main__ INFO Loading api key file...
+Loading params.toml file...
+20:04:20,947 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 20:04:20.948144
+20:04:20,948 __main__ INFO Checked for updated tasks at 2023-01-29 20:04:20.948144
+Sending request to https://api.clickup.com/api/v2/team/
+20:04:20,948 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+20:04:20,978 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:21,458 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:04:21,461 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:04:21,465 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:21,926 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+20:04:21,929 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:04:21,929 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:04:21,933 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:22,459 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+20:04:22,461 __main__ INFO Got folder ids.
+Getting active user...
+20:04:22,462 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+20:04:22,462 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+20:04:22,466 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:22,978 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:04:22,982 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:04:22,987 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:23,577 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 20:04:23.578424
+20:04:23,578 __main__ INFO Checked for updated tasks at 2023-01-29 20:04:23.578424
+Reading task: (' Updated Task Name', '863fyy9a0')
+20:04:23,578 __main__ INFO Reading task: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+20:04:23,578 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+20:04:23,578 __main__ INFO Updated text_content task and description.
+Loading .env file...
+20:04:47,238 __main__ INFO Loading .env file...
+Loading api key file...
+20:04:47,239 __main__ INFO Loading api key file...
+Loading params.toml file...
+20:04:47,239 __main__ INFO Loading params.toml file...
+Checked for updated tasks at 2023-01-29 20:04:47.240246
+20:04:47,240 __main__ INFO Checked for updated tasks at 2023-01-29 20:04:47.240246
+Sending request to https://api.clickup.com/api/v2/team/
+20:04:47,240 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/
+20:04:47,298 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:47,752 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/ HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:04:47,757 __main__ INFO Sending request to https://api.clickup.com/api/v2/team/20147054/space
+20:04:47,761 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:48,300 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/team/20147054/space?archived=false HTTP/1.1" 200 None
+Getting folder ids...
+20:04:48,304 __main__ INFO Getting folder ids...
+Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:04:48,304 __main__ INFO Sending request to https://api.clickup.com/api/v2/space/63124096/folder
+20:04:48,309 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:48,906 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/space/63124096/folder?archived=false HTTP/1.1" 200 None
+Got folder ids.
+20:04:48,911 __main__ INFO Got folder ids.
+Getting active user...
+20:04:48,912 __main__ INFO Getting active user...
+Sending request to https://api.clickup.com/api/v2/user
+20:04:48,913 __main__ INFO Sending request to https://api.clickup.com/api/v2/user
+20:04:48,918 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:49,390 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/user HTTP/1.1" 200 None
+Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:04:49,396 __main__ INFO Sending request to https://api.clickup.com/api/v2/list/900800104214/task
+20:04:49,401 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.clickup.com:443
+20:04:50,101 urllib3.connectionpool DEBUG https://api.clickup.com:443 "GET /api/v2/list/900800104214/task HTTP/1.1" 200 None
+Checked for updated tasks at 2023-01-29 20:04:50.106082
+20:04:50,106 __main__ INFO Checked for updated tasks at 2023-01-29 20:04:50.106082
+Reading task: (' Updated Task Name', '863fyy9a0')
+20:04:50,106 __main__ INFO Reading task: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+20:04:50,106 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+20:04:50,106 __main__ INFO Updated text_content task and description.
+Task update not needed for task (' Updated Task Name', '863fyy9a0')
+20:04:50,106 __main__ INFO Task update not needed for task (' Updated Task Name', '863fyy9a0')
+Last update time changed to 1675037607060
+20:04:50,106 __main__ INFO Last update time changed to 1675037607060
+Checked for updated tasks at 2023-01-29 20:09:50.092512
+20:09:50,92 __main__ INFO Checked for updated tasks at 2023-01-29 20:09:50.092512
+Reading task: (' Updated Task Name', '863fyy9a0')
+20:09:50,93 __main__ INFO Reading task: (' Updated Task Name', '863fyy9a0')
+Updated description task and description.
+20:09:50,94 __main__ INFO Updated description task and description.
+Updated text_content task and description.
+20:09:50,94 __main__ INFO Updated text_content task and description.

@@ -1,0 +1,38 @@
+CLICKUP-TASK-URL = "https://api.clickup.com/api/v2/task/"
+CLICKUP-TEAM-URL = "https://api.clickup.com/api/v2/team/"
+CLICKUP-SPACE-URL = "https://api.clickup.com/api/v2/space/"
+CLICKUP-LIST-URL = "https://api.clickup.com/api/v2/list/"
+CLICKUP-FOLDER-URL = "https://api.clickup.com/api/v2/folder/"
+
+CLICKUP-TEAM-NAME = 'Abstract Data'
+CLICKUP-SPACE-NAMES = ['Texas Political', 'CounterPoint']
+216-MAINTENANCE-TEAM-ID = ""
+216-MAINTENANCE-SPACE-ID = ""
+
+
+CLICKUP-216-TEAM-ID = '20147054'
+CLICKUP-216-SPACE-ID = '63124096'
+CLICKUP-216-TEAM-NAME = '216 Maintenance'
+CLICKUP-216-SPACE-NAMES = ['Administration']
+CLICKUP-216-JOSH-TASK-FOLDER-NAME = 'Josh Tasks'
+CLICKUP-216-JOSH-TASK-FOLDER-ID = '90080057956'
+CLICKUP-216-DISPATCH-LIST-NAME = 'Dispatching'
+CLICKUP-216-DISPATCH-LIST-ID = '900800104214'
+
+
+[TEXT-TO-REMOVE-FROM-DESC]
+    SUBJECTS-TO-REMOVE = ['Fwd:']
+    HEADERS-TO-REMOVE = [
+        'From: JEN MURRAY <JEMURRAY@STARBUCKS.COM>',
+        'info@216maintenance.com',
+        'To: 216 Maintenance <info@216maintenance.com>; jemurray@starbucks.com <jemurray@starbucks.com>; JEMURRAY@STARBUCKS.COM <JEMURRAY@STARBUCKS.COM>',
+        '________________________________',
+        'This e-mail message has been automatically delivered to you by AventX(tm) UNIX, a product of STR Software.',
+        'This message may contain an attachment in PDF format. If you find that you cannot read the attached file with a viewer on your machine, you can download a free PDF viewer from www.adobe.com<http://www.adobe.com>',
+        'jemurray@starbucks.com <jemurray@starbucks.com>;',
+        'JEMURRAY@STARBUCKS.COM <JEMURRAY@STARBUCKS.COM>',
+        'To: 216 Maintenance <>;',
+        ]
+    FOOTERS-TO-REMOVE = [
+    'This message may contain an attachment in PDF format. If you find that you cannot read the attached file with a viewer on your machine, you can download a free PDF viewer from www.adobe.com<http://www.adobe.com>',
+    ]
